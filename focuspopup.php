@@ -10,6 +10,6 @@
 	$_SESSION["civpointpop"] = $civpointpop;
   $_SESSION["civpoints"] = $civpoints;
   
-  header("location:index.php");
+  header("location:index.html");
   
  ?>

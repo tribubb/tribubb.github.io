@@ -90,5 +90,5 @@
   	
 	ECHO ($pop." : ".$eco)
 
-	//header("location:index.php");
+	//header("location:index.html");
 ?>
