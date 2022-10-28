@@ -1,62 +1,9 @@
 <!DOCTYPE html>
 
-<?php
- 	session_start();
- 	if (!isset ($_SESSION["year"])) {
- 	$_SESSION["year"] = 0;
- 	}
- 	$year = $_SESSION["year"];
-	if (!isset ($_SESSION["pop"])) {
- 	$_SESSION["pop"] = 5000;
- 	}
- 	$pop = $_SESSION["pop"];
-	if (!isset ($_SESSION["mil"])) {
- 	$_SESSION["mil"] = 50;
- 	}
- 	$mil = $_SESSION["mil"];
-	if (!isset ($_SESSION["eco"])) {
- 	$_SESSION["eco"] = 50;
- 	}
- 	$eco = $_SESSION["eco"];
-	if (!isset ($_SESSION["tech"])) {
- 	$_SESSION["tech"] = 0;
- 	}	
- 	$tech = $_SESSION["tech"];
-	if (!isset ($_SESSION["civpoints"])) {
- 	$_SESSION["civpoints"] = 5;
- 	}	
- 	$civpoints = $_SESSION["civpoints"];
-	if (!isset ($_SESSION["civpointpop"])) {
- 	$_SESSION["civpointpop"] = 0;
- 	}	
- 	$civpointpop = $_SESSION["civpointpop"];
-	if (!isset ($_SESSION["civpointmil"])) {
- 	$_SESSION["civpointmil"] = 0;
- 	}	
- 	$civpointmil = $_SESSION["civpointmil"];
-	if (!isset ($_SESSION["civpointeco"])) {
- 	$_SESSION["civpointeco"] = 0;
- 	}	
- 	$civpointeco = $_SESSION["civpointeco"];
-	if (!isset ($_SESSION["civpointtech"])) {
- 	$_SESSION["civpointtech"] = 0;
- 	}	
- 	$civpointtech = $_SESSION["civpointtech"];
-	if (!isset ($_SESSION["techstate"])) {
- 	$_SESSION["techstate"] = "Prehistoric Age";
- 	}
- 	$techstate = $_SESSION["techstate"];
-	if (!isset ($_SESSION["event"])) {
- 	$_SESSION["event"] = "Alpha test v0.05";
- 	}
- 	$event = $_SESSION["event"];
-?>
-
 <html>
 <head>
-<title>NationSim1998</title>
+<title>Trids Projects</title>
 <script type="text/javascript" src="xhr.js"></script>
-<script type="text/javascript" src="simple.js"> </script>
 </head>
 <body>
 <div id="targetDiv"> 
