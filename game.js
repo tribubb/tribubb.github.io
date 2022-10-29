@@ -3,7 +3,7 @@ let block = document.getElementById("block")
 
 function jump()
 {
-	if (character.classLIst != "animate")
+	if (character.classList != "animate")
 	{
 		character.classList.add("animate")
 	}
