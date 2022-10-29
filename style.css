@@ -23,12 +23,12 @@
 #block
 {
 	width: 20px;
-	height: 48px;
+	height: 20px;
 	background-color: green;
 	position: relative;
 	top: 130px;
 	left: 480px;
-	animation: block ls infinite linear;
+	animation: block 1s infinite;
 }
 
 @keyframes block
