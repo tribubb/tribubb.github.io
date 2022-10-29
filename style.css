@@ -30,6 +30,7 @@
 
 .animate
 {
+	animation: jump 500ms;
 }
 
 #block
