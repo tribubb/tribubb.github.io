@@ -18,7 +18,7 @@
 	background-color: red;
 	position: relative;
 	top: 150px;
-	animation: jump 500ms infinite;
+	animation: jump 500ms;
 }
 
 @keyframes jump
