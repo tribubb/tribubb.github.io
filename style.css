@@ -17,3 +17,20 @@ margin: 0;
 	height: 48px;
 	background-color: red;
 }
+
+#block
+{
+	width: 20px;
+	height: 48px;
+	background-color: green;
+	position: relative;
+	top: 130px;
+	left: 480px;
+	animation: block ls infinite linear;
+}
+
+@keyframes block
+{
+	0%{left: 480px;}
+	100%{left: -40px;}
+}
