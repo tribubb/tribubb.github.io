@@ -6,8 +6,15 @@
 
 h1
 {
-	font-size: 30px;
 	color: #100000;
+	font-size: 40px;
+	padding: 20px;
+	margin: 20px;
+}
+
+p
+{
+	color: white;
 }
 
 #header
