@@ -6,21 +6,21 @@
 
 #header
 {
-	background-color: #908888
+	background-color: #262222;
 	height: 200px;
 	width: 100%;
 }
 
 #main
 {
-	background-color: lightgrey;
+	background-color: #908888;
 	height: 600px;
 	width: 100%;
 }
 
 #footer
 {
-	background-color: #908888
+	background-color: #262222;
 	height: 200px;
 	width: 100%;
 }
