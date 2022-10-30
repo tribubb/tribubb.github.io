@@ -4,11 +4,19 @@
 	margin: 0;
 }
 
+h1
+{
+	font-size: 30px;
+	color: #100000;
+}
+
 #header
 {
 	background-color: #262222;
-	height: 200px;
+	height: 100px;
 	width: 100%;
+	padding: 20px;
+	margin: 20px;
 }
 
 #main
@@ -21,6 +29,6 @@
 #footer
 {
 	background-color: #262222;
-	height: 200px;
+	height: 100px;
 	width: 100%;
 }
