@@ -45,3 +45,48 @@ p
 {
 	background-color: #262222;
 }
+
+@media (max-width: 900px)
+{
+	h1
+	{
+		color: #331111;
+		font-size: 50px;
+		letter-spacing: 5px;
+		text-align: center;
+	}
+	
+	p
+	{
+		color: #ffdddd;
+		font-size: 35px;
+	}
+	
+	#main
+	{
+		background-image: url("backdrop.png");
+		height: 700px;
+		background-size: cover;
+ 		background-repeat: no-repeat;
+  		background-position: center;
+	}	
+	
+	#footer1
+	{
+		background-color: #474444;
+		height: 200px;
+		width: 100%;
+	}
+
+	#footer2
+	{
+		background-color: #262222;
+		height: 100px;
+		width: 100%;
+	}
+	
+	.body
+	{
+		background-color: #262222;
+	}
+}
