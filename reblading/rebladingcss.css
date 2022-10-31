@@ -28,7 +28,7 @@ p
 
 #footer1
 {
-	background-color: #363333;
+	background-color: #474444;
 	height: 200px;
 	width: 100%;
 }
@@ -36,6 +36,11 @@ p
 #footer2
 {
 	background-color: #262222;
-	height: 200px;
+	height: 100px;
 	width: 100%;
+}
+
+@body
+{
+	background-color: #262222;
 }
