@@ -30,14 +30,14 @@ p
 #footer1
 {
 	background-color: #474444;
-	height: 200px;
+	height: 100px;
 	width: 100%;
 }
 
 #footer2
 {
 	background-color: #262222;
-	height: 100px;
+	height: 200px;
 	width: 100%;
 }
 
@@ -46,7 +46,7 @@ p
 	background-color: #262222;
 }
 
-@media (max-width: 900px)
+@media all and (min-width:0px) and (max-width: 900px)
 {
 	h1
 	{
@@ -74,14 +74,14 @@ p
 	#footer1
 	{
 		background-color: #474444;
-		height: 200px;
+		height: 100px;
 		width: 100%;
 	}
 
 	#footer2
 	{
 		background-color: #262222;
-		height: 100px;
+		height: 200px;
 		width: 100%;
 	}
 	
