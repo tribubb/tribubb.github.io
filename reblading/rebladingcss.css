@@ -6,13 +6,16 @@
 
 h1
 {
-	color: white;
+	color: #ffdddd;
 	font-size: 40px;
+	padding: 20px;
+	vertical-align: middle;
 }
 
 p
 {
-	color: white;
+	color: #ffdddd;
+	padding: 20px;
 }
 
 #header
@@ -25,7 +28,7 @@ p
 #main
 {
 	background-color: #908888;
-	height: 600px;
+	height: 100vh;
 	width: 100%;
 }
 
