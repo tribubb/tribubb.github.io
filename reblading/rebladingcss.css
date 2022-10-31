@@ -19,6 +19,7 @@ p
 #main
 {
 	background-image: url("backdrop.png");
+	height: 400px;
 }
 
 #footer1
