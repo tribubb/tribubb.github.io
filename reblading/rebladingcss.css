@@ -9,7 +9,6 @@ h1
 	color: #ffdddd;
 	font-size: 40px;
 	padding: 20px;
-	vertical-align: middle;
 }
 
 p
@@ -18,23 +17,23 @@ p
 	padding: 20px;
 }
 
-#main
+#main (max-width: 800px)
 {
 	background-image: url("backdrop.png");
 	background-repeat: no-repeat;
-	width: 100vh;
+	width: 100%;
 }
 
 #footer1
 {
 	background-color: #363333;
-	height: 100px;
+	height: 100vh;
 	width: 100%;
 }
 
 #footer2
 {
 	background-color: #262222;
-	height: 100px;
+	height: 200px;
 	width: 100%;
 }
