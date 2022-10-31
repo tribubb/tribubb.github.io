@@ -43,12 +43,12 @@ p
 	width: 100%;
 }
 
-.body
+body
 {
 	background-color: #262222;
 }
 
-@media all and (min-width:0px) and (max-width: 900px)
+@media all and (min-width:0px) and (max-width: 1200px)
 {
 	h1
 	{
@@ -61,7 +61,7 @@ p
 	p
 	{
 		color: #ffdddd;
-		font-size: 35px;
+		font-size: 45px;
 	}
 	
 	#main
@@ -83,11 +83,11 @@ p
 	#footer2
 	{
 		background-color: #262222;
-		height: 200px;
+		height: 250px;
 		width: 100%;
 	}
 	
-	.body
+	body
 	{
 		background-color: #262222;
 	}
