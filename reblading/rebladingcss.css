@@ -15,12 +15,13 @@ h1
 p
 {
 	color: #ffdddd;
-	font size: 20px;
+	font-size: 25px;
 }
 
 #main
 {
 	background-image: url("backdrop.png");
+	height: 700px;
 	background-size: cover;
  	background-repeat: no-repeat;
   	background-position: center;
