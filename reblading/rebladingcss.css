@@ -14,14 +14,14 @@ h1
 
 p
 {
-	color: #331111;
+	color: #ffdddd;
+	font size: 20px;
 }
 
 #main
 {
 	background-image: url("backdrop.png");
-	height: 650px;
-	width: 100%;
+	background-size: cover;
  	background-repeat: no-repeat;
   	background-position: center;
 }
