@@ -19,6 +19,9 @@ p
 {
 	background-image: url("backdrop.png");
 	height: 650px;
+	width: 100%;
+ 	background-repeat: no-repeat;
+  	background-position: center;
 }
 
 #footer1
