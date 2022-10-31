@@ -14,14 +14,13 @@ h1
 p
 {
 	color: #ffdddd;
-	margin: 10px;
+	margin: 5px;
 }
 
 #main (max-width: 800px)
 {
 	background-image: url("backdrop.png");
 	background-repeat: no-repeat;
-	width: 100%;
 }
 
 #footer1
