@@ -6,13 +6,15 @@
 
 h1
 {
-	color: #ffeeee;
-	font-size: 50px;
+	color: #221111;
+	font-size: 45px;
+	letter-spacing: 3px;
+	text-align: center;
 }
 
 p
 {
-	color: #ffeeee;
+	color: #221111;
 }
 
 #main
