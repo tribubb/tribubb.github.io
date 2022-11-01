@@ -62,36 +62,36 @@
 	
 	p
 	{
-		color: #ffdddd;
+		color: #331111;
 		font-size: 45px;
 		font-family: "Geneva", "Verdana", sans-serif;
+	}
+
+	#header
+	{
+		background-color: #ddaabb;
+		height: 150px;
+		width: 100%;
 	}
 	
 	#main
 	{
-		background-image: url("backdrop.png");
+		background-color: #ffccdd;
 		height: 700px;
-		background-size: cover;
- 		background-repeat: no-repeat;
-  		background-position: center;
+		width: 100%
 	}	
 	
-	#footer1
+	#footer
 	{
-		background-color: #474444;
-		height: 100px;
-		width: 100%;
-	}
-
-	#footer2
-	{
-		background-color: #262222;
+		background-color: #ddaabb;
 		height: 250px;
 		width: 100%;
 	}
 	
 	body
 	{
-		background-color: #262222;
+		background-color: #ddaabb;
 	}
+}
+
 }
