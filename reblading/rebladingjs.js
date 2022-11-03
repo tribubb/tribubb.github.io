@@ -1,0 +1,4 @@
+function aboutus()
+{
+	alert("test");
+}
