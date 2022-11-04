@@ -1,9 +1,6 @@
 function home()
 {
-	document.getElementById("subject").innerHTML = "Home:<br>
-			Landline: 043454000<br>
-			Mobile: 021444888<br>
-			Email: tanneryreblading@test.com";
+	document.getElementById("subject").innerHTML = "testing123";
 }
 
 function aboutus()
