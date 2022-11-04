@@ -1,6 +1,9 @@
 function home()
 {
-	document.getElementById("subject").innerHTML = "Home:";
+	document.getElementById("subject").innerHTML = "Contact us:
+			Landline: 043454002
+			Mobile: 021444888
+			Email: tanneryreblading@test.com";
 }
 
 function aboutus()
