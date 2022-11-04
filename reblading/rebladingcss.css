@@ -1,3 +1,4 @@
+
 *
 {
 	padding: 0px;
@@ -5,7 +6,7 @@
 }
 
 .buttonfooter1 {
-	background-color: #474444;
+	background-color: #464646;
 	border-style: none;
 	border-left-style: solid;
 	border-right-style: solid;
@@ -13,10 +14,11 @@
 	width: 33%;
 	text-align: center;
 	font-size: 30px;
+	padding: 15px 40px;
 }
 
 .buttonfooter2 {
-	background-color: #474444;
+	background-color: #494646;
 	border-style: none;
 	border-left-style: solid;
 	border-right-style: solid;
@@ -24,10 +26,11 @@
 	width: 33%;
 	text-align: center;
 	font-size: 30px;
+	padding: 15px 40px;
 }
 
 .buttonfooter3 {
-	background-color: #474444;
+	background-color: #494646;
 	border-style: none;
 	border-left-style: solid;
 	border-right-style: solid;
@@ -35,6 +38,7 @@
 	width: 33%;
 	text-align: center;
 	font-size: 30px;
+	padding: 15px 40px;
 }
 
 h1
@@ -63,7 +67,6 @@ p
 #footer1
 {
 	background-color: #474444;
-	height: 150px;
 	width: 100%;
 }
 
