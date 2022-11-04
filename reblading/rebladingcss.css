@@ -4,16 +4,14 @@
 	margin: 0px;
 }
 
-.buttonfoote {
+.buttonfooter {
 	background-color: #474444;
+	border-style: none;
 	border-left-style: solid;
 	border-right-style: solid;
 	color: white;
 	width: 33%;
-	padding: 15px 32px;
 	text-align: center;
-	text-decoration: none;
-	display: inline-block;
 	font-size: 30px;
 }
 
