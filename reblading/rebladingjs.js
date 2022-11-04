@@ -1,4 +1,4 @@
 function aboutus()
 {
-	document.getElementByID("aboutus").innerHTML = "testtext";
+	document.getElementById("aboutus").innerHTML = "testtext";
 }
