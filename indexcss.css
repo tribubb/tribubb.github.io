@@ -4,6 +4,16 @@
 	margin: 0px;
 }
 
+.buttonmain
+{
+	background-color: #ddcc55;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding: 50px 50px;
+	font-family: "Geneva", "Verdana", sans-serif;
+}
+
 h1
 {
 	color: #ffffff;
