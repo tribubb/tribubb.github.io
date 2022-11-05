@@ -10,6 +10,7 @@ h1
 	letter-spacing: 5px;
 	text-align: center;
 	font-family: "Geneva", "Verdana", sans-serif;
+	padding: 50px 0px
 }
 
 a
@@ -20,6 +21,13 @@ a
 
 p
 {
+	color: #000000;
+	font-family: "Geneva", "Verdana", sans-serif;
+}
+
+.versioncontrol
+{
+	font-size: 16px;
 	color: #000000;
 	font-family: "Geneva", "Verdana", sans-serif;
 }
