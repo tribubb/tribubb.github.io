@@ -12,9 +12,15 @@ h1
 	font-family: "Geneva", "Verdana", sans-serif;
 }
 
+a
+{
+	color: #000000;
+	font-family: "Geneva", "Verdana", sans-serif;
+}
+
 p
 {
-	color: #ffffff;
+	color: #000000;
 	font-family: "Geneva", "Verdana", sans-serif;
 }
 
@@ -27,7 +33,7 @@ p
 
 #main
 {
-	background-color: #aa88cc;
+	background-color: #ffeecc;
 	height: 700px;
 	width: 100%
 }	
@@ -49,6 +55,11 @@ body
 	h1
 	{
 		font-size: 60px;
+	}
+
+	a
+	{
+		font-size: 40px;
 	}
 	
 	p
