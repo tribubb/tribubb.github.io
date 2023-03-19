@@ -20,7 +20,7 @@ export default function Home() {
             href="https://www.dropbox.com/s/u11nzj7sj1a295k/BubbRTSv.023.rar?dl=0"
 	    target="_blank"
           >
-            <code className={styles.code}BubbRTS v.023 available here</code>
+            <code className={styles.code}>BubbRTS v.023 available here</code>
           </a>
         </div>
 
