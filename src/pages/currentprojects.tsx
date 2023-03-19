@@ -15,28 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-	    By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
+        <div className={styles.thirteen}>
+          <a
+            href="https://www.dropbox.com/s/u11nzj7sj1a295k/BubbRTSv.023.rar?dl=0"
+	    target="_blank"
+          >
+            <code className={styles.code}BubbRTS v.023 available here</code>
+          </a>
         </div>
 
         <div className={styles.center}>
@@ -69,7 +54,7 @@ export default function Home() {
               BubbRTS <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             Newest version released <code>10/03/2023 07:29am</code>
+             Newest version v0.23 released <code>10/03/2023 07:29am</code>
             </p>
           </a>
         </div>
