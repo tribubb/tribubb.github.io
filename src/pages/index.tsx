@@ -52,16 +52,14 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="unity.html"
+            href="currentprojects.html"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               Current Projects <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              View projects currently being worked on.
+              View projects currently under development.
             </p>
           </a>
 
