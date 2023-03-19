@@ -1,32 +1,10 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6rem;
-    min-height: 100vh;
-    background: linear-gradient(to bottom, --background-end-rgb1, --background-end-rgb2);
-}
-
-.videoWrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-}
-
-.backgroundVideo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
 }
 
 .description {
@@ -51,8 +29,8 @@
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.8);
-  border: 2px solid rgba(var(--callout-border-rgb), 0.6);
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
 
@@ -72,7 +50,7 @@
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
-  border: 2px solid rgba(var(--card-border-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
 }
 
@@ -95,12 +73,15 @@
 }
 
 .center {
+  display: flex;
+  justify-content: center;
   align-items: center;
   position: relative;
   padding: 4rem 0;
 }
 
 .center::before {
+  background: var(--secondary-glow);
   border-radius: 50%;
   width: 480px;
   height: 360px;
@@ -108,6 +89,7 @@
 }
 
 .center::after {
+  background: var(--primary-glow);
   width: 240px;
   height: 180px;
   z-index: -1;
@@ -123,50 +105,41 @@
 }
 
 .logo,
-.spin {
+.thirteen {
   position: relative;
 }
 
-.basicBorder {
-    box-shadow: 0px 2px 8px -1px #0000001a;
-    display: block;
-    border-radius: var(--border-radius);
-    background: linear-gradient( to bottom right, rgba(var(--tile-start-rgb), 0.3), rgba(var(--tile-end-rgb), 0.3) );
-    padding: 25px 10px;
-}
-
-.spin {
+.thirteen {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 300px;
-  height: 30px;
+  height: 75px;
   padding: 25px 10px;
   margin-left: 16px;
   transform: translateZ(0);
   border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: 0px 2px 8px -1px #0000001a;
-  position: relative;
 }
 
-.spin::before,
-.spin::after {
+.thirteen::before,
+.thirteen::after {
   content: '';
   position: absolute;
   z-index: -1;
 }
 
-.spin::before {
-  animation: 3s linear infinite glowing-border;
-  width: 300%; 
-  height: 12px; 
-  background: linear-gradient(to right, transparent, rgba(var(--tile-border), 1), transparent); 
-  top: calc(50% - 6px); 
-  left: 0; 
+/* Conic Gradient Animation */
+.thirteen::before {
+  animation: 6s rotate linear infinite;
+  width: 200%;
+  height: 200%;
+  background: var(--tile-border);
 }
 
-.spin::after {
+/* Inner Square */
+.thirteen::after {
   inset: 0;
   padding: 1px;
   border-radius: var(--border-radius);
@@ -177,35 +150,12 @@
   );
   background-clip: content-box;
 }
-  
-@keyframes glowing-border {
-  0% {
-    transform: translateX(-100%); 
-  }
-  100% {
-    transform: translateX(100%); 
-  }
-}
-
-@keyframes animateBackground {
-    0% {
-        background-color: rgba(255, 255, 255, 0.2);
-    }
-
-    50% {
-        background-color: rgba(255, 255, 255, 0.4);
-    }
-
-    100% {
-        background-color: rgba(255, 255, 255, 0.2);
-    }
-}
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
-    background: rgba(var(--card-rgb), 0.4);
-    border: 2px solid rgba(var(--card-border-rgb), 0.45);
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
 
   .card:hover span {
@@ -214,7 +164,7 @@
 }
 
 @media (prefers-reduced-motion) {
-  .spin::before {
+  .thirteen::before {
     animation: none;
   }
 
@@ -313,7 +263,16 @@
   }
 
   .logo,
-  .spin img {
+  .thirteen img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
   }
 }
