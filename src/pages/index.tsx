@@ -61,7 +61,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="unity.html"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -75,7 +75,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="otherprojects.html"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
