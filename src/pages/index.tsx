@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -8,22 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() 
 {
-  const [text, setText] = React.useState('');
-
-  function myPrompt() 
-  {
-    let person = prompt('Please enter your name:', 'Harry Potter');
-    if (person == null || person == '') 
-    {
-      setText('User cancelled the prompt.');
-    } 
-    else 
-    {
-      setText(`Hello ${person}! How are you today?`);
-    }
-  }
-
-  return 
+ return 
   (
     <>
       <Head>
@@ -67,7 +52,7 @@ export default function Home()
           </a>
 
           <a
-            onClick={myPrompt}
+            href="passwordpromptpage"
             className={styles.card}
           >
             <h2 className={inter.className}>
