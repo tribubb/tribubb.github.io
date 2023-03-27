@@ -6,15 +6,15 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 169, 220;
-  --background-end-rgb: 255, 200, 255;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
-    #16abff30 0deg,
-    #0885ff30 55deg,
-    #54d6ff30 120deg,
-    #0071ff30 160deg,
+    #16abff33 0deg,
+    #0885ff33 55deg,
+    #54d6ff33 120deg,
+    #0071ff33 160deg,
     transparent 360deg
   );
   --secondary-glow: radial-gradient(
@@ -43,18 +43,18 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 15, 0, 15;
-    --background-end-rgb: 45, 5, 55;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
 
-    --primary-glow: radial-gradient(rgba(125, 1, 255, 0.4), rgba(125, 1, 255, 0));
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
       to bottom right,
-      rgba(125, 1, 255, 0),
-      rgba(65, 1, 255, 0),
-      rgba(5, 1, 255, 0.2)
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3)
     );
 
-    --tile-start-rgb: 2, 10, 46;
+    --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
     --tile-border: conic-gradient(
       #ffffff80,
