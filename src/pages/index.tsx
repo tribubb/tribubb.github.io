@@ -29,7 +29,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="currentprojects.html"
+            href="/currentprojects.html"
             className={styles.card}
           >
             <h2 className={inter.className}>
@@ -41,7 +41,7 @@ export default function Home() {
           </a>
 
 	  <a
-            href="otherprojects.html"
+            href="/otherprojects.html"
             className={styles.card}
           >
             <h2 className={inter.className}>
@@ -53,7 +53,7 @@ export default function Home() {
           </a>
 
           <a
-            href="passwordpromptpage.html"
+            href="/passwordpromptpage.html"
             className={styles.card}
           >
             <h2 className={inter.className}>
