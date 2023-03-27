@@ -8,25 +8,23 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() 
 {
-  function MyComponent() 
-  {
-    const [text, setText] = React.useState('');
+  const [text, setText] = React.useState('');
 
-    function myPrompt() 
+  function myPrompt() 
+  {
+    let person = prompt('Please enter your name:', 'Harry Potter');
+    if (person == null || person == '') 
     {
-      let person = prompt('Please enter your name:', 'Harry Potter');
-      if (person == null || person == '') 
-      {
-        setText('User cancelled the prompt.');
-      } 
-      else 
-      {
-        setText(`Hello ${person}! How are you today?`);
-      }
+      setText('User cancelled the prompt.');
+    } 
+    else 
+    {
+      setText(`Hello ${person}! How are you today?`);
     }
   }
 
-  return (
+  return 
+  (
     <>
       <Head>
         <title>Tridsprojects</title>
@@ -83,7 +81,5 @@ export default function Home()
         </div>
       </main>
     </>
-  )
+  );
 }
-
-export default MyComponent;
