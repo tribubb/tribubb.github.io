@@ -46,15 +46,15 @@
     --background-start-rgb: 15, 0, 15;
     --background-end-rgb: 45, 5, 55;
 
-    --primary-glow: radial-gradient(rgba(65, 1, 255, 0.4), rgba(65, 1, 255, 0));
+    --primary-glow: radial-gradient(rgba(125, 1, 255, 0.4), rgba(125, 1, 255, 0));
     --secondary-glow: linear-gradient(
       to bottom right,
+      rgba(125, 1, 255, 0),
       rgba(65, 1, 255, 0),
-      rgba(65, 1, 255, 0),
-      rgba(65, 1, 255, 0.2)
+      rgba(5, 1, 255, 0.2)
     );
 
-    --tile-start-rgb: 2, 13, 46;
+    --tile-start-rgb: 2, 10, 46;
     --tile-end-rgb: 2, 5, 19;
     --tile-border: conic-gradient(
       #ffffff80,
