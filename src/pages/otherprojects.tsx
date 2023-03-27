@@ -15,14 +15,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.spin}>
-          <a
-            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
-	    target="_blank"
-          >
-            <code className={styles.code}>BubbRTS v.0241 available here</code>
-          </a>
-        </div>
 
         <div className={styles.center}>
         </div>
@@ -33,7 +25,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2 className={inter.className}>
-               Return<span>-&gt;</span>
+               Return <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Return to main page

@@ -33,7 +33,7 @@ export default function Home() {
               Unity Projects<span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              View projects currently under development. (test01)
+              View projects currently under development.
             </p>
           </a>
 
