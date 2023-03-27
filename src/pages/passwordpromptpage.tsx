@@ -11,6 +11,7 @@ export default function Home() {
   const [password, setPassword] = useState('');
   const [isJobApplication, setIsJobApplication] = useState(false);
   const [isReblading, setIsReblading] = useState(false);
+  const router = useRouter();
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
