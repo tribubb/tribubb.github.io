@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -5,7 +6,26 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home() 
+{
+  function MyComponent() 
+  {
+    const [text, setText] = React.useState('');
+
+    function myPrompt() 
+    {
+      let person = prompt('Please enter your name:', 'Harry Potter');
+      if (person == null || person == '') 
+      {
+        setText('User cancelled the prompt.');
+      } 
+      else 
+      {
+        setText(`Hello ${person}! How are you today?`);
+      }
+    }
+  }
+
   return (
     <>
       <Head>
@@ -61,24 +81,40 @@ export default function Home() {
             </p>
           </a>
         </div>
-	<script>
-	  function myPrompt() 
-	  {
-  	    let text;
-  	    let person = prompt("Please enter your password:", "");
-
-  	    if (person == null || person == "") 
-	    {
-    	      text = "User cancelled the prompt.";
-  	    }
-	    else 
-	    {
-    	      text = "Hello " + person + "! How are you today?";
-  	    }
-  	    document.getElementById("demo").innerHTML = text;
-	  }
-	</script>
       </main>
     </>
   )
+}
+
+function MyComponent() {
+  const [text, setText] = React.useState('');
+
+  function myFunction() {
+    let person = prompt('Please enter your name:', 'Harry Potter');
+    if (person == null || person == '') {
+      setText('User cancelled the prompt.');
+    } else {
+      setText(`Hello ${person}! How are you today?`);
+    }
+  }
+
+  return (
+    <div>
+      <button onClick={myFunction}>Try it</button>
+      <p id="demo">{text}</p>
+    </div>
+  );
+}
+
+function myPrompt() 
+{
+    let person = prompt('Please enter your name:', 'Harry Potter');
+    if (person == null || person == '') 
+    {
+      setText('User cancelled the prompt.');
+    } 
+    else 
+    {
+      setText(`Hello ${person}! How are you today?`);
+    }
 }
