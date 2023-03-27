@@ -15,12 +15,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.thirteen}>
+        <div className={styles.spin}>
           <a
-            href="https://www.dropbox.com/s/u11nzj7sj1a295k/BubbRTSv.023.rar?dl=0"
+            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
 	    target="_blank"
           >
-            <code className={styles.code}>BubbRTS v.023 available here</code>
+            <code className={styles.code}>BubbRTS v.0241 available here</code>
           </a>
         </div>
 
