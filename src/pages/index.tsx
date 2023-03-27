@@ -67,7 +67,7 @@ export default function Home()
           </a>
 
           <a
-            onclick={myPrompt}
+            onClick={myPrompt}
             className={styles.card}
           >
             <h2 className={inter.className}>
