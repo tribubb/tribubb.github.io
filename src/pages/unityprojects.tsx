@@ -42,11 +42,11 @@ export default function Home() {
           </a>
 
 	  <a
-            href="index.html"
+            href="index"
             className={styles.card}
           >
             <h2 className={inter.className}>
-               <span>-&gt;</span>
+              Return<span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Return to main page
