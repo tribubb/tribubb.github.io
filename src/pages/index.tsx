@@ -86,35 +86,4 @@ export default function Home()
   )
 }
 
-function MyComponent() {
-  const [text, setText] = React.useState('');
-
-  function myFunction() {
-    let person = prompt('Please enter your name:', 'Harry Potter');
-    if (person == null || person == '') {
-      setText('User cancelled the prompt.');
-    } else {
-      setText(`Hello ${person}! How are you today?`);
-    }
-  }
-
-  return (
-    <div>
-      <button onClick={myFunction}>Try it</button>
-      <p id="demo">{text}</p>
-    </div>
-  );
-}
-
-function myPrompt() 
-{
-    let person = prompt('Please enter your name:', 'Harry Potter');
-    if (person == null || person == '') 
-    {
-      setText('User cancelled the prompt.');
-    } 
-    else 
-    {
-      setText(`Hello ${person}! How are you today?`);
-    }
-}
+export default MyComponent;
