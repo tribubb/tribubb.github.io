@@ -105,7 +105,7 @@
 }
 
 .logo,
-.thirteen {
+.spin {
   position: relative;
 }
 
@@ -263,7 +263,7 @@
   }
 
   .logo,
-  .thirteen img {
+  .spin img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
   }
 }
