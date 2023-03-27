@@ -10,7 +10,7 @@ export default function Home() {
   const [password, setPassword] = useState('');
   const [isSuccess, setIsSuccess] = useState(false);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (password === '12345') {
       setIsSuccess(true);
