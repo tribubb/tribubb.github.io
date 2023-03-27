@@ -7,6 +7,16 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const [password, setPassword] = useState('');
+  const [isSuccess, setIsSuccess] = useState(false);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (password === '12345') {
+      setIsSuccess(true);
+    }
+  };
+
   return (
     <>
       <Head>
@@ -18,6 +28,18 @@ export default function Home() {
       <main className={styles.main}>
 
         <div className={styles.center}>
+	  <form onSubmit={handleSubmit}>
+            <label>
+              Password:
+              <input
+                type="password"
+                value={password}
+                onChange={(event) => setPassword(event.target.value)}
+              />
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+          {isSuccess && <p>Success!</p>}
         </div>
 
         <div className={styles.grid}>
