@@ -114,7 +114,7 @@
   justify-content: center;
   align-items: center;
   width: 300px;
-  height: 75px;
+  height: 30px;
   padding: 25px 10px;
   margin-left: 16px;
   transform: translateZ(0);
@@ -133,7 +133,7 @@
 /* Conic Gradient Animation */
 .spin::before {
   animation: 10s rotate linear infinite;
-  width: 100%;
+  width: 200%;
   height: 200%;
   background: var(--tile-border);
 }

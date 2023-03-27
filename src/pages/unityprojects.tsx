@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
@@ -16,67 +15,51 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.videoWrapper}>
-          <video autoPlay muted loop playsInline className={styles.backgroundVideo}>
-            <source src={require('./videos/BubbPlanet.mp4')} type="video/mp4" />
-          </video>
-        </div>
         <div className={styles.spin}>
           <a
-            href="BubbRTS/bubbRTSLanding"
+            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
+	    target="_blank"
           >
-            <code className={styles.code}>BubbRTS v.025 available here</code>
+            <code className={styles.code}>BubbRTS v.0241 available here</code>
           </a>
         </div>
 
         <div className={styles.center}>
+          /*<Image
+            className={styles.logo}
+            src="/next.svg"
+            alt="Next.js Logo"
+            width={180}
+            height={37}
+            priority
+          />*/
         </div>
 
         <div className={styles.grid}>
           <a
-            href="BubbRTS/bubbRTSLanding"
+            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
             className={styles.card}
+            target="_blank"
           >
             <h2 className={inter.className}>
               BubbRTS <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             In development since November 2022. Newest version v0.25 released <code>11/04/2023 04:48pm</code>
+             Newest version v0.241 released <code>27/03/2023 06:00am</code>
             </p>
           </a>
 
-	      <a
-            href="https://www.dropbox.com/s/hgeu8qfbbaf8bcb/TimeRunnerBuild.rar?dl=0"
+	  <a
+            href="index.html"
             className={styles.card}
-            target="_blank"
           >
             <h2 className={inter.className}>
-              TimeRunner <span>-&gt;</span>
+               <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             Originally developed for Android Mid 2022, this project has since been abandoned.
+              Return to main page
             </p>
           </a>
-
-	      <a
-            href="https://www.dropbox.com/s/h0rc8wkfwtbbvn4/TridClicker.rar?dl=0"
-            className={styles.card}
-            target="_blank"
-          >
-            <h2 className={inter.className}>
-              TridClicker <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-             Originally developed for Android Mid/Late 2022, this project has since been abandoned.
-            </p>
-          </a>
-
-           <Link href="/" passHref className={styles.card}>
-                  <h2 className={inter.className}>
-                      Return<span>-&gt;</span>
-                  </h2>
-                  <p className={inter.className}>Return to main page</p>
-           </Link>
         </div>
       </main>
     </>
