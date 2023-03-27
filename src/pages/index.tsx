@@ -24,15 +24,10 @@ export default function Home() {
           </a>
         </div>
 
-        <div className={styles.center}>
-        </div>
-
         <div className={styles.grid}>
           <a
             href="unityprojects.html"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
+            className={styles.card}s
           >
             <h2 className={inter.className}>
               Unity Projects<span>-&gt;</span>
@@ -43,7 +38,7 @@ export default function Home() {
           </a>
 
 	  <a
-            href="otherprojects.tsx"
+            href="otherprojects.html"
             className={styles.card}
           >
             <h2 className={inter.className}>
@@ -55,7 +50,7 @@ export default function Home() {
           </a>
 
           <a
-            href="/passwordpromptpage.html"
+            href="passwordpromptpage.html"
             className={styles.card}
           >
             <h2 className={inter.className}>
