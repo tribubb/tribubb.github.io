@@ -29,8 +29,10 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="src/pages/unityprojects.html"
+            href="unityprojects.html"
             className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               Unity Projects<span>-&gt;</span>
