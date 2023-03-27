@@ -17,8 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.spin}>
           <a
-            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
-	    target="_blank"
+            href="BubbRTS/bubbRTSLanding"
           >
             <code className={styles.code}>BubbRTS v.0241 available here</code>
           </a>
@@ -50,17 +49,35 @@ export default function Home() {
           </a>
 
           <a
-            href="passwordpromptpage"
+            onclick="myPrompt()"
             className={styles.card}
           >
             <h2 className={inter.className}>
                Enter a password<span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
+            <p className={inter.className} 
+	    id="demo">
               View a password protected page
             </p>
           </a>
         </div>
+	<script>
+	  function myPrompt() 
+	  {
+  	    let text;
+  	    let person = prompt("Please enter your password:", "");
+
+  	    if (person == null || person == "") 
+	    {
+    	      text = "User cancelled the prompt.";
+  	    }
+	    else 
+	    {
+    	      text = "Hello " + person + "! How are you today?";
+  	    }
+  	    document.getElementById("demo").innerHTML = text;
+	  }
+	</script>
       </main>
     </>
   )
