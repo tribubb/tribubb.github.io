@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -8,12 +9,19 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [password, setPassword] = useState('');
-  const [isSuccess, setIsSuccess] = useState(false);
+  const [isJobApplication, setIsJobApplication] = useState(false);
+  const [isReblading, setIsReblading] = useState(false);
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (password === '12345') {
+    if (password === '12345')
+    {
       setIsSuccess(true);
+      router.push('/JobApplications/CVCLJA928354');
+    }
+    else
+    {
+      setIsSuccess(false);
     }
   };
 
@@ -39,7 +47,7 @@ export default function Home() {
             </label>
             <button type="submit">Submit</button>
           </form>
-          {isSuccess && <p>Success!</p>}
+          {isJobApplication && <p>Success!</p>}
         </div>
 
         <div className={styles.grid}>
