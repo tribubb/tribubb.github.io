@@ -21,7 +21,7 @@ export default function Home() {
     }
     else
     {
-      setIsSuccess(false);
+      setIsJobApplication(false);
     }
   };
 
