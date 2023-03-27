@@ -17,8 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.spin}>
           <a
-            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
-	    target="_blank"
+            href="BubbRTS/bubbRTSLanding"
           >
             <code className={styles.code}>BubbRTS v.0241 available here</code>
           </a>
