@@ -15,21 +15,30 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-              <video>
-                  <source src="../videos/BubbPlanet.mp4" type="video/mp4"></source>
-                  Your browser does not support the video tag.
-              </video>
-          <div className={styles.center}>
-              <div className={styles.basicBorder}> 
-                  <p className={inter.className}>BubbRTS is a Real Time Strategy game being developed for PC.</p> <br/>
-                  <p className={inter.className}>In BubbRTS, you build a base, accumulate resources and survive waves of opponents, developing technology and your society to combat invasion.</p><br/>
-                  <p className={inter.className}>New updates are posted every month, but a focus on smaller projects means releases will be further apart</p>
-              </div> 
-          </div>
+        <div className={styles.spin}>
+          <a
+            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
+	    target="_blank"
+          >
+            <code className={styles.code}>BubbRTS v.0241 available here</code>
+          </a>
+        </div>
+
+        <div className={styles.center}>
+	  <p className={inter.className}>
+            BubbRTS is a Real Time Strategy game being developed for PC.
+	  </p>
+	  <p className={inter.className}>
+            In BubbRTS, you build a base, accumulate resources and survive waves of opponents, developing technology and your society to combat invasion.
+	  </p>
+	  <p className={inter.className}>
+            New updates are being posted every second Thursday night with a list of additions, check Friday for the new version.
+	  </p>
+        </div>
 
         <div className={styles.grid}>
           <a
-            href="https://www.dropbox.com/s/caoowi1yhwe6oo9/BubbRTSv.025.rar?dl=0"
+            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
             className={styles.card}
             target="_blank"
           >
@@ -37,7 +46,7 @@ export default function Home() {
               Download <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             Download the newest version v0.25 from Dropbox
+             Download the newest version v0.241. Released <code>27/03/2023 06:00am</code>
             </p>
           </a>
 

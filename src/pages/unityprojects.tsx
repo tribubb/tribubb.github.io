@@ -37,7 +37,33 @@ export default function Home() {
               BubbRTS <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             Newest version v0.241 released <code>27/03/2023 06:00am</code>
+             In development since November 2022. Newest version v0.241 released <code>27/03/2023 06:00am</code>
+            </p>
+          </a>
+
+	  <a
+            href="https://www.dropbox.com/s/hgeu8qfbbaf8bcb/TimeRunnerBuild.rar?dl=0"
+            className={styles.card}
+            target="_blank"
+          >
+            <h2 className={inter.className}>
+              TimeRunner <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+             Originally developed for Android Mid 2022, this project has since been abandoned.
+            </p>
+          </a>
+
+	  <a
+            href="https://www.dropbox.com/s/h0rc8wkfwtbbvn4/TridClicker.rar?dl=0"
+            className={styles.card}
+            target="_blank"
+          >
+            <h2 className={inter.className}>
+              TridClicker <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+             Originally developed for Android Mid/Late 2022, this project has since been abandoned.
             </p>
           </a>
 
@@ -46,7 +72,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2 className={inter.className}>
-              Return<span>-&gt;</span>
+              Return <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Return to main page
