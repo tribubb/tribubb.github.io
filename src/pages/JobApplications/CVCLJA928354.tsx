@@ -24,7 +24,7 @@ export default function Home() {
 
         <div className={styles.grid}>
 	  <a
-            href="index"
+            href="../index"
             className={styles.card}
           >
             <h2 className={inter.className}>

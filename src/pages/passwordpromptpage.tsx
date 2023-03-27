@@ -16,7 +16,7 @@ export default function Home() {
     event.preventDefault();
     if (password === '12345')
     {
-      setIsSuccess(true);
+      setIsJobApplication(true);
       router.push('/JobApplications/CVCLJA928354');
     }
     else
