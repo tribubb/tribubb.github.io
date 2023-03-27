@@ -29,9 +29,8 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
+            href="BubbRTS/bubbRTSLanding"
             className={styles.card}
-            target="_blank"
           >
             <h2 className={inter.className}>
               BubbRTS <span>-&gt;</span>
