@@ -27,13 +27,13 @@ export default function Home() {
         <div className={styles.grid}>
           <a
             href="unityprojects.html"
-            className={styles.card}s
+            className={styles.card}
           >
             <h2 className={inter.className}>
               Unity Projects<span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              View projects currently under development.
+              View projects currently under development. (test01)
             </p>
           </a>
 
