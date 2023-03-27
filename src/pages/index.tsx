@@ -57,13 +57,12 @@ export default function Home()
             <h2 className={inter.className}>
                Enter a password<span>-&gt;</span>
             </h2>
-            <p className={inter.className} 
-	    id="demo">
+            <p className={inter.className}>
               View a password protected page
             </p>
           </a>
         </div>
       </main>
     </>
-  );
+  )
 }
