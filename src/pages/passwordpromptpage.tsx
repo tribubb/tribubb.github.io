@@ -15,7 +15,7 @@ export default function Home() {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (password === '12345')
+    if (password === 'Q75CK9CBXKVZLDH3')
     {
       setIsJobApplication(true);
       router.push('/JobApplications/CVCLJA928354');

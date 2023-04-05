@@ -3,11 +3,8 @@
     "",
     "\\src",
     "\\src\\pages",
-    "\\src\\pages\\BubbRTS",
-    "\\src\\pages\\videos",
-    "\\src\\scripts",
-    "\\src\\styles"
+    "\\src\\pages\\JobApplications"
   ],
-  "SelectedNode": "\\src\\styles\\Home.module.css",
+  "SelectedNode": "\\src\\pages\\JobApplications",
   "PreviewInSolutionExplorer": false
 }
