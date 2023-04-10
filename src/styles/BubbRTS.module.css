@@ -140,8 +140,8 @@
 /* Conic Gradient Animation */
 .spin::before {
   animation: 10s rotate linear infinite;
-  width: 200%;
-  height: 200%;
+  width: 500%;
+  height: 500%;
   background: var(--tile-border);
 }
 
@@ -171,7 +171,7 @@
 }
 
 @media (prefers-reduced-motion) {
-  .thirteen::before {
+  .spin::before {
     animation: none;
   }
 
