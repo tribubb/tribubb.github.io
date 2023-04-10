@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-CVCLJA928354",
+      "appliesTo": "src/pages/JobApplications/CVCLJA928354.tsx",
+      "type": "launch"
+    }
+  ]
+}
