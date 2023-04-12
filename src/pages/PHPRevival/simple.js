@@ -1,7 +1,7 @@
 // file simpleajax.js
 var xhr = createRequest();
 function getData(dataSource, divID, aYear, aPop, aMil, aEco, aTech, aCivpoints, aCivpointpop, aCivpointmil, aCivpointeco,
-		   aCivpointtech, aTechstate, aEvent)  {
+		   aCivpointtech, aTechstate, aEvent);  {
     if(xhr) {
 	    
 	    getData('focus.php','targetDiv', year.value, pop.value, mil.value, eco.value, tech.value, civpoints.value, civpointpop.value, 
