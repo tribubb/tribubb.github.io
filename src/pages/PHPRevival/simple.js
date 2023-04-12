@@ -4,7 +4,7 @@ function getData(dataSource, divID, aYear, aPop, aMil, aEco, aTech, aCivpoints, 
 {
 	if (xhr)
 	{
-		getData('focus.php', 'targetDiv', year.value, pop.value, mil.value, eco.value, tech.value, civpoints.value, civpointpop.value, civpointmil.value, civpointeco.value, civpointtech.value, techstate.value);
+		getData('focus.php', 'targetDiv', year.value, pop.value, mil.value, eco.value, tech.value, civpoints.value, civpointpop.value, civpointmil.value, civpointeco.value, civpointtech.value, techstate.value), 1000;
 	    
 	    var place = document.getElementById(divID);
 	    var url = dataSource+"?year="+aYear+"?pop="+aPop+"?mil="+aMil+"?eco="+aEco
