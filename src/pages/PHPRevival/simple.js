@@ -23,3 +23,7 @@ function getData(dataSource, divID, aYear, aPop, aMil, aEco, aTech, aCivpoints, 
 	    xhr.send(null);
 	} // end if
 } // end function getData()
+
+function createRequest()
+{
+}
