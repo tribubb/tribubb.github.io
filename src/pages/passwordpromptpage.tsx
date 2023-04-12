@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   const [password, setPassword] = useState('');
   const [isJobApplication, setIsJobApplication] = useState(false);
+  const [isPHPRevival, setIsPHPRevival] = useState(false);
   const [isReblading, setIsReblading] = useState(false);
   const router = useRouter();
 
@@ -19,6 +20,11 @@ export default function Home() {
     {
       setIsJobApplication(true);
       router.push('/JobApplications/CVCLJA928354');
+    }
+    else if (password === 'C9PV6NPSV0B7FL9X')
+    {
+          setIsPHPRevival(true);
+          router.push('/PHPRevival/index.php');
     }
     else
     {
