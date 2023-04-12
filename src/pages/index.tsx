@@ -19,7 +19,7 @@ export default function Home() {
           <a
             href="BubbRTS/bubbRTSLanding"
           >
-            <code className={styles.code}>BubbRTS v.0241 available here</code>
+            <code className={styles.code}>BubbRTS v.025 available here</code>
           </a>
         </div>
 

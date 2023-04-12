@@ -29,7 +29,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://www.dropbox.com/s/fz1hctsrph7davp/BubbRTS.v0241.rar?dl=0"
+            href="https://www.dropbox.com/s/caoowi1yhwe6oo9/BubbRTSv.025.rar?dl=0"
             className={styles.card}
             target="_blank"
           >
@@ -37,7 +37,7 @@ export default function Home() {
               Download <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             Download the newest version v0.241. Released <code>27/03/2023 06:00am</code>
+             Download the newest version v0.25 from Dropbox
             </p>
           </a>
 

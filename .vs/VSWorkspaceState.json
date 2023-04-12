@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\pages",
-    "\\src\\pages\\JobApplications"
+    "\\src\\pages\\JobApplications",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\pages\\unityprojects.tsx",
+  "SelectedNode": "\\src\\pages\\passwordpromptpage.tsx",
   "PreviewInSolutionExplorer": false
 }
