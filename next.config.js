@@ -5,6 +5,6 @@ const nextConfig = {
 
 module.exports = {
 nextConfig,
-pageExtensions: ['php']
+pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts', 'php']
 }
 
