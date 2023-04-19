@@ -3,9 +3,10 @@
     "",
     "\\src",
     "\\src\\pages",
+    "\\src\\pages\\BubbRTS",
     "\\src\\pages\\JobApplications",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\pages\\passwordpromptpage.tsx",
+  "SelectedNode": "\\src\\pages\\unityprojects.tsx",
   "PreviewInSolutionExplorer": false
 }
