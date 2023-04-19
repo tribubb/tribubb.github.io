@@ -39,7 +39,7 @@ export default function Home() {
             </p>
           </a>
 
-	  <a
+	      <a
             href="https://www.dropbox.com/s/hgeu8qfbbaf8bcb/TimeRunnerBuild.rar?dl=0"
             className={styles.card}
             target="_blank"
@@ -52,7 +52,7 @@ export default function Home() {
             </p>
           </a>
 
-	  <a
+	      <a
             href="https://www.dropbox.com/s/h0rc8wkfwtbbvn4/TridClicker.rar?dl=0"
             className={styles.card}
             target="_blank"
@@ -65,7 +65,7 @@ export default function Home() {
             </p>
           </a>
 
-	  <a
+	      <a
             href="index"
             className={styles.card}
           >
