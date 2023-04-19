@@ -21,20 +21,6 @@ export default function Home() {
 
               <div className={styles.grid}>
                   <a
-                      href="index"
-                      className={styles.card}
-                  >
-                      <h2 className={inter.className}>
-                          Return <span>-&gt;</span>
-                      </h2>
-                      <p className={inter.className}>
-                          Return to main page
-                      </p>
-                  </a>
-              </div>
-
-              <div className={styles.grid}>
-                  <a
                       href="https://www.dropbox.com/s/eztq16h55datn6r/clay-tablet-extended-clipboard.zip?dl=0"
                       className={styles.card}
                       target="_blank"
