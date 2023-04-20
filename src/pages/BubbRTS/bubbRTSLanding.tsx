@@ -15,17 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.center}>
-	  <p className={inter.className}>
-            BubbRTS is a Real Time Strategy game being developed for PC.
-	  </p>
-	  <p className={inter.className}>
-            In BubbRTS, you build a base, accumulate resources and survive waves of opponents, developing technology and your society to combat invasion.
-	  </p>
-	  <p className={inter.className}>
-            New updates are being posted every second Thursday night with a list of additions, check Friday for the new version.
-	  </p>
-        </div>
+          <div className={styles.center}>
+              <div className={styles.basicBorder}> 
+                  <p>BubbRTS is a Real Time Strategy game being developed for PC.</p> 
+                  <p>In BubbRTS, you build a base, accumulate resources and survive waves of opponents, developing technology and your society to combat invasion.</p>
+                  <p>New updates are being posted every second Thursday night with a list of additions, check Friday for the new version.</p>
+              </div> 
+          </div>
 
         <div className={styles.grid}>
           <a
