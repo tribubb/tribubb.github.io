@@ -3,9 +3,9 @@
     --border-radius: 12px;
     --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
     --foreground-rgb: 0, 0, 0;
-    --background-start-rgb1: 48, 171, 245;
+    --background-start-rgb1: 48, 171, 235;
     --background-end-rgb1: 255, 118, 118;
-    --background-start-rgb2: 58, 181, 255;
+    --background-start-rgb2: 68, 191, 255;
     --background-end-rgb2: 245, 108, 108;
     --primary-glow: conic-gradient( from 180deg at 50% 50%, #16abff30 0deg, #0885ff30 55deg, #54d6ff30 120deg, #0071ff30 160deg, transparent 360deg );
     --secondary-glow: radial-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) );
@@ -21,8 +21,8 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --foreground-rgb: 255, 255, 255;
-        --background-start-rgb1: 25, 10, 25;
-        --background-end-rgb1: 55, 15, 65;
+        --background-start-rgb1: 35, 20, 35;
+        --background-end-rgb1: 65, 25, 75;
         --background-start-rgb2: 15, 0, 15;
         --background-end-rgb2: 45, 5, 55;
         --primary-glow: radial-gradient(rgba(125, 1, 255, 0.4), rgba(125, 1, 255, 0));
@@ -71,7 +71,7 @@ body {
     }
 
     50% {
-        background-position: 100% 0;
+        background-position: 200% 0;
         background-size: 200% 200%;
         background-image: linear-gradient( to bottom, rgb(var(--background-start-rgb1)), rgb(var(--background-end-rgb1)), rgb(var(--background-start-rgb2)), rgb(var(--background-end-rgb2)) );
     }
