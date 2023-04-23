@@ -63,18 +63,18 @@ body {
         background-position: 0 0;
     }
 
-    50% 
-    {
-        background-position: 100% 0;
-        background-size: 200% 200%;
-        background-image: linear-gradient( to bottom, rgb(var(--background-end-rgb1)), rgb(var(--background-start-rgb2)) );
-    }
-
     100% 
     {
         background-position: 0 0;
         background-size: 400% 400%;
         background-image: linear-gradient( to bottom, rgb(var(--background-start-rgb1)), rgb(var(--background-end-rgb1)), rgb(var(--background-start-rgb2)), rgb(var(--background-end-rgb2)) );
+    }
+
+    50% 
+    {
+        background-position: 100% 0;
+        background-size: 200% 200%;
+        background-image: linear-gradient( to bottom, rgb(var(--background-end-rgb1)), rgb(var(--background-start-rgb2)) );
     }
 }
 
