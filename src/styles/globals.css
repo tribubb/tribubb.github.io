@@ -51,7 +51,7 @@ body {
 
 body {
     color: rgb(var(--foreground-rgb));
-    background: linear-gradient( to bottom, rgb(var(--background-start-rgb1)), rgb(var(--background-end-rgb1)), rgb(var(--background-start-rgb2)), rgb(var(--background-end-rgb2)) );
+    background: linear-gradient( to bottom, rgb(var(--background-start-rgb1)) 0%, rgb(var(--background-end-rgb1)) 50%, rgb(var(--background-start-rgb2)) 50%, rgb(var(--background-end-rgb2)) 100% );
     animation: color-change 15s infinite;
 }
 
