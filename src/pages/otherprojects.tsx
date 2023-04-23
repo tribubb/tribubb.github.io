@@ -21,7 +21,7 @@ export default function Home() {
 
               <div className={styles.grid}>
                   <a
-                      href="https://www.dropbox.com/s/eztq16h55datn6r/clay-tablet-extended-clipboard.zip?dl=0"
+                      href="https://chrome.google.com/webstore/detail/clay-tablet-extended-clip/fbhocoeaipopfeeflnemkbehpmkeicla?hl=en&authuser=0"
                       className={styles.card}
                       target="_blank"
                   >
