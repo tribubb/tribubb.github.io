@@ -19,7 +19,7 @@ export default function Home() {
               <div className={styles.basicBorder}> 
                   <p>BubbRTS is a Real Time Strategy game being developed for PC.</p> <br/>
                   <p>In BubbRTS, you build a base, accumulate resources and survive waves of opponents, developing technology and your society to combat invasion.</p><br/>
-                  <p>New updates are being posted every second Thursday night with a list of additions, check Friday for the new version.</p>
+                  <p>New updates are posted every month, but a focus on smaller projects means releases will be further apart</p>
               </div> 
           </div>
 
