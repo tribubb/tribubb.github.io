@@ -78,13 +78,9 @@
 }
 
 .center {
-  background-color: rgba(var(--callout-rgb), 0.8);
-  border: 2px solid rgba(var(--callout-border-rgb), 0.6);
-  border-radius: var(--border-radius);
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 4rem 0;
+    align-items: center;
+    position: relative;
+    padding: 4rem 0;
 }
 
 .center::before {
