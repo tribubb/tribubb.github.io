@@ -18,7 +18,6 @@ export default function Home() {
     if (password === 'Q75CK9CBXKVZLDH3')
     {
       setIsJobApplication(true);
-      router.push('/JobApplications/CVCLJA928354');
     }
     else
     {
