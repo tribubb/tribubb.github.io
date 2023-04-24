@@ -15,7 +15,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-
         <div className={styles.center}>
             <div className={styles.basicBorder}>
                 <p>You have reached the Job Application Portal. This has been started on the 4th of April to monitor new application statuses.</p><br/>
