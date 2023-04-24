@@ -17,9 +17,9 @@ export default function Home() {
       <main className={styles.main}>
           <div className={styles.center}>
               <div className={styles.basicBorder}> 
-                  <p>BubbRTS is a Real Time Strategy game being developed for PC.</p> <br/>
-                  <p>In BubbRTS, you build a base, accumulate resources and survive waves of opponents, developing technology and your society to combat invasion.</p><br/>
-                  <p>New updates are posted every month, but a focus on smaller projects means releases will be further apart</p>
+                  <p className={inter.className}>BubbRTS is a Real Time Strategy game being developed for PC.</p> <br/>
+                  <p className={inter.className}>In BubbRTS, you build a base, accumulate resources and survive waves of opponents, developing technology and your society to combat invasion.</p><br/>
+                  <p className={inter.className}>New updates are posted every month, but a focus on smaller projects means releases will be further apart</p>
               </div> 
           </div>
 
