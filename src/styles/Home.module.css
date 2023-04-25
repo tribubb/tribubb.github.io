@@ -125,7 +125,7 @@
   border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: 0px 2px 8px -1px #0000001a;
-  position: relative; /* Add position:relative to .spin */
+  position: relative;
 }
 
 .spin::before,
@@ -135,17 +135,15 @@
   z-index: -1;
 }
 
-/* Linear Gradient Animation */
 .spin::before {
-  animation: 3s linear infinite glowing-border; /* Change the animation to linear */
-  width: 100%; /* Set the width to 100% */
-  height: 4px; /* Set the height to the desired border thickness */
-  background: linear-gradient(to right, transparent, rgba(var(--tile-border), 0.8), transparent); /* Use a linear gradient with transparency */
-  top: calc(50% - 2px); /* Position the border vertically */
-  left: 0; /* Position the border to the left of the .spin element */
+  animation: 3s linear infinite glowing-border;
+  width: 300%; 
+  height: 12px; 
+  background: linear-gradient(to right, transparent, rgba(var(--tile-border), 1), transparent); 
+  top: calc(50% - 6px); 
+  left: 0; 
 }
 
-/* Inner Square */
 .spin::after {
   inset: 0;
   padding: 1px;
@@ -158,13 +156,12 @@
   background-clip: content-box;
 }
   
-/* Keyframe Animation */
 @keyframes glowing-border {
   0% {
-    transform: translateX(-100%); /* Start the gradient animation offscreen to the left */
+    transform: translateX(-100%); 
   }
   100% {
-    transform: translateX(100%); /* End the gradient animation offscreen to the right */
+    transform: translateX(100%); 
   }
 }
 
