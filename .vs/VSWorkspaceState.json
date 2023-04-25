@@ -4,9 +4,8 @@
     "\\src",
     "\\src\\pages",
     "\\src\\pages\\BubbRTS",
-    "\\src\\pages\\JobApplications",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\pages\\BubbRTS\\bubbRTSLanding.tsx",
+  "SelectedNode": "\\src\\styles\\BubbRTS.module.css",
   "PreviewInSolutionExplorer": false
 }
