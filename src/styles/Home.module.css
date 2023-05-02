@@ -8,6 +8,16 @@
     background: linear-gradient(to bottom, --background-end-rgb1, --background-end-rgb2);
 }
 
+.animatedMain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: animateBackground 10s linear infinite;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -164,6 +174,20 @@
   100% {
     transform: translateX(100%); 
   }
+}
+
+@keyframes animateBackground {
+    0% {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    50% {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
 }
 
 /* Enable hover only on non-touch devices */
