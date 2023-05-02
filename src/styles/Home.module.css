@@ -5,7 +5,7 @@
     align-items: center;
     padding: 6rem;
     min-height: 100vh;
-    animation: animateBackground 10s linear infinite;
+    background: linear-gradient(to bottom, --background-end-rgb1, --background-end-rgb2);
 }
 
 .description {
@@ -164,20 +164,6 @@
   100% {
     transform: translateX(100%); 
   }
-}
-
-@keyframes animateBackground {
-    0% {
-        background-color: #ffffff; /* initial background color */
-    }
-
-    50% {
-        background-color: #ff0000; /* color halfway through the animation */
-    }
-
-    100% {
-        background-color: #ffffff; /* final background color */
-    }
 }
 
 /* Enable hover only on non-touch devices */
