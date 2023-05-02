@@ -3,9 +3,8 @@
     "",
     "\\src",
     "\\src\\pages",
-    "\\src\\pages\\BubbRTS",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\styles\\BubbRTS.module.css",
+  "SelectedNode": "\\src\\styles\\Home.module.css",
   "PreviewInSolutionExplorer": false
 }
