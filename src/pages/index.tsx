@@ -50,18 +50,6 @@ export default function Home() {
               View other projects.
             </p>
           </a>
-
-          <a
-            href="passwordpromptpage"
-            className={styles.card}
-          >
-            <h2 className={inter.className}>
-               Enter a password<span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              View a password protected page
-            </p>
-          </a>
         </div>
       </main>
     </>
