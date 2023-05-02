@@ -18,6 +18,21 @@
     animation: animateBackground 10s linear infinite;
 }
 
+.animatedMain video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.animatedMain .content {
+    position: relative;
+    z-index: 1;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
