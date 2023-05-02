@@ -21,13 +21,6 @@ export default function Home() {
           </a>
         </div>
 
-        <div className={styles.animatedMain}>
-          <video autoplay muted loop>
-            <source src="videos/BubbPlanet.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-
         <div className={styles.grid}>
           <a href="unityprojects" className={styles.card}>
             <h2 className={inter.className}>
