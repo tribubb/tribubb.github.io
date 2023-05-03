@@ -15,7 +15,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <video src={require('videos/BubbPlanet.mp4')} />
+                <video src={require('./videos/BubbPlanet.mp4')} />
                 <div className={styles.spin}>
                     <a href="BubbRTS/bubbRTSLanding">
                         <code className={styles.code}>BubbRTS v.025 available here</code>
