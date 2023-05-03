@@ -5,6 +5,6 @@ const nextConfig = {
 
 module.exports = {
     nextConfig,
-    withVideos(),
+    withVideos()
 }
 
