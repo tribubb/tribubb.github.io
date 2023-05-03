@@ -17,7 +17,7 @@ export default function Home() {
         <main className={styles.main}>
               <div className={styles.animatedMain}>
                   <video className={styles.backgroundVideo} autoPlay muted loop>
-                      <source src="@/videos/BubbPlanet.mp4" type="video/mp4" />
+                      <source src="/videos/BubbPlanet.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                   </video>
               </div>
