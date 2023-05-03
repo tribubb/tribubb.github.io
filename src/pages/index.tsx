@@ -16,7 +16,8 @@ export default function Home() {
             </Head>
             <main className={styles.main}>
                     <video>
-                        <source src="/videos/BubbPlanet.mp4" type="video/mp4" />
+                      <source src="videos/BubbPlanet.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
                     </video>
                 <div className={styles.spin}>
                     <a href="BubbRTS/bubbRTSLanding">
