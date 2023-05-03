@@ -8,29 +8,6 @@
     background: linear-gradient(to bottom, --background-end-rgb1, --background-end-rgb2);
 }
 
-.animatedMain {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.backgroundVideo {
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover;
-}
-
-.animatedMain .content {
-    position: relative;
-    z-index: 1;
-}
-
 .description {
   display: inherit;
   justify-content: inherit;
