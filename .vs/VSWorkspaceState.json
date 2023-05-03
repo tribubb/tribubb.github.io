@@ -3,6 +3,7 @@
     "",
     "\\src",
     "\\src\\pages",
+    "\\src\\pages\\videos",
     "\\src\\styles"
   ],
   "SelectedNode": "\\src\\pages\\index.tsx",
