@@ -17,7 +17,7 @@
     z-index: -1;
 }
 
-backgroundVideo {
+.backgroundVideo {
     position: absolute;
     top: 0; 
     left: 0; 
