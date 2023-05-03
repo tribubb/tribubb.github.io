@@ -14,7 +14,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>  
-      <main className={styles.main}>
+        <main className={styles.main}>
+              <div className={styles.animatedMain}>
+                  <video className={styles.backgroundVideo} autoPlay muted loop>
+                      <source src="@/videos/BubbPlanet.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                  </video>
+              </div>
         <div className={styles.spin}>
           <a href="BubbRTS/bubbRTSLanding">
           <code className={styles.code}>BubbRTS v.025 available here</code>
@@ -40,12 +46,6 @@ export default function Home() {
             </p>
           </a>
         </div>  
-        <div className={styles.animatedMain}>
-          <video className={styles.backgroundVideo} autoPlay muted loop>
-            <source src="@/videos/BubbPlanet.mp4" type="video/mp4"/>
-              Your browser does not support the video tag.
-          </video>
-        </div>
       </main>
     </>
   )
