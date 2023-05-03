@@ -3,8 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = {
-    nextConfig,
-    withVideos()
-}
-
+module.exports = nextConfig
