@@ -15,6 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+              <video>
+                  <source src="../videos/BubbPlanet.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+              </video>
           <div className={styles.center}>
               <div className={styles.basicBorder}> 
                   <p className={inter.className}>BubbRTS is a Real Time Strategy game being developed for PC.</p> <br/>
