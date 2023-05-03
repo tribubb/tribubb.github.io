@@ -6,47 +6,47 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>Tridsprojects</title>
-        <meta name="description" content="Welcome to Triden's official project site" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>  
-        <main className={styles.main}>
-              <div className={styles.animatedMain}>
-                  <video className={styles.backgroundVideo} autoPlay muted loop>
-                      <source src="/videos/BubbPlanet.mp4" type="video/mp4" />
-                      Your browser does not support the video tag.
-                  </video>
-              </div>
-        <div className={styles.spin}>
-          <a href="BubbRTS/bubbRTSLanding">
-          <code className={styles.code}>BubbRTS v.025 available here</code>
-          </a>
-        </div>
+    return (
+        <>
+            <Head>
+                <title>Tridsprojects</title>
+                <meta name="description" content="Welcome to Triden's official project site" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <main className={styles.main}>
+                <div className={styles.animatedMain}>
+                    <video className={styles.backgroundVideo} autoPlay muted loop>
+                        <source src="/videos/BubbPlanet.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div className={styles.spin}>
+                    <a href="BubbRTS/bubbRTSLanding">
+                        <code className={styles.code}>BubbRTS v.025 available here</code>
+                    </a>
+                </div>
 
-        <div className={styles.grid}>
-          <a href="unityprojects" className={styles.card}>
-            <h2 className={inter.className}>
-              Unity Projects<span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-               View projects currently under development.
-            </p>
-          </a>
+                <div className={styles.grid}>
+                    <a href="unityprojects" className={styles.card}>
+                        <h2 className={inter.className}>
+                            Unity Projects<span>-&gt;</span>
+                        </h2>
+                        <p className={inter.className}>
+                            View projects currently under development.
+                        </p>
+                    </a>
 
-          <a href="otherprojects" className={styles.card}>
-            <h2 className={inter.className}>
-              Other Projects<span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              View other projects.
-            </p>
-          </a>
-        </div>  
-      </main>
-    </>
-  )
+                    <a href="otherprojects" className={styles.card}>
+                        <h2 className={inter.className}>
+                            Other Projects<span>-&gt;</span>
+                        </h2>
+                        <p className={inter.className}>
+                            View other projects.
+                        </p>
+                    </a>
+                </div>
+            </main>
+        </>
+    );
 }
