@@ -15,10 +15,11 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
           </Head>
           <main className={styles.main}>
-
-              <div className={styles.center}>
+              <div className={styles.videoWrapper}>
+                  <video autoPlay muted loop playsInline className={styles.backgroundVideo}>
+                      <source src={require('./videos/TimeRunnerBackground.mp4')} type="video/mp4" />
+                  </video>
               </div>
-
               <div className={styles.grid}>
                   <a
                       href="https://chrome.google.com/webstore/detail/clay-tablet-extended-clip/fbhocoeaipopfeeflnemkbehpmkeicla?hl=en&authuser=0"

@@ -15,6 +15,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <div className={styles.videoWrapper}>
+          <video autoPlay muted loop playsInline className={styles.backgroundVideo}>
+            <source src={require('./videos/BubbPlanet.mp4')} type="video/mp4" />
+          </video>
+        </div>
         <div className={styles.spin}>
           <a
             href="BubbRTS/bubbRTSLanding"
