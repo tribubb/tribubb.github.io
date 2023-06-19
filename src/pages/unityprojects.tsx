@@ -71,8 +71,8 @@ export default function Home() {
             </p>
           </a>
 
-          <Link href="/index" passHref>
-              <a className={styles.card}>
+                  <Link href="/index" passHref className={styles.card}>
+              <a>
                   <h2 className={inter.className}>
                       Return<span>-&gt;</span>
                   </h2>
