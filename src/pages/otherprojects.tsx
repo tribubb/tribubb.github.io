@@ -35,6 +35,18 @@ export default function Home() {
                   </a>
 
                   <a
+                      href="https://bubbclicker.azurewebsites.net/"
+                      className={styles.card}
+                  >
+                      <h2 className={inter.className}>
+                          BubbClicker <span>-&gt;</span>
+                      </h2>
+                      <p className={inter.className}>
+                          Developed in June 2023. Clicker game made with ASP.NET Core and MySQL hosted in Azure.
+                      </p>
+                  </a>
+
+                  <a
                       href="index"
                       className={styles.card}
                   >
