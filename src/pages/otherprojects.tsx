@@ -42,7 +42,7 @@ export default function Home() {
                           BubbClicker <span>-&gt;</span>
                       </h2>
                       <p className={inter.className}>
-                          Developed in June 2023. Clicker game made with ASP.NET Core and MySQL hosted in Azure.
+                          Developed in June 2023. Clicker game made with ASP.NET Core and MySQL hosted in Azure (May take 20 seconds to load).
                       </p>
                   </a>
 
