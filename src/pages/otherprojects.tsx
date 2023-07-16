@@ -30,7 +30,7 @@ export default function Home() {
                           Clay Tablet Extended Clipboard <span>-&gt;</span>
                       </h2>
                       <p className={inter.className}>
-                          Developed in April 2023. Website productivity extender made in HTML/CSS/JS Manifest Version 3
+                          Developed in April 2023. Website productivity extender made in HTML/CSS/JS Manifest Version 3.
                       </p>
                   </a>
 
@@ -43,6 +43,18 @@ export default function Home() {
                       </h2>
                       <p className={inter.className}>
                           Developed in June 2023. Clicker game made with ASP.NET Core and MySQL hosted in Azure (May take 20 seconds to load).
+                      </p>
+                  </a>
+
+		  <a
+                      href="http://bubblopedia.ap-southeast-2.elasticbeanstalk.com/BubbRTShome"
+                      className={styles.card}
+                  >
+                      <h2 className={inter.className}>
+                          BubbRTS Bubblopedia Extended<span>-&gt;</span>
+                      </h2>
+                      <p className={inter.className}>
+                          Developed in July 2023. Laravel PHP online encyclopedia utilising Vue.js, and Three.js for WebGL hosted with AWS Elastic Beanstalk.
                       </p>
                   </a>
 
