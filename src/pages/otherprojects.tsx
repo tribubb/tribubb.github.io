@@ -54,7 +54,7 @@ export default function Home() {
                           BubbRTS Bubblopedia Extended<span>-&gt;</span>
                       </h2>
                       <p className={inter.className}>
-                          Developed in July 2023. Laravel PHP online encyclopedia utilising Vue.js, and Three.js for WebGL hosted with AWS Elastic Beanstalk.
+                          Developed in July 2023. Laravel PHP online encyclopedia for the game BubbRTS utilising Vue.js, and Three.js for WebGL functionality. Hosted with AWS Elastic Beanstalk.
                       </p>
                   </a>
 
