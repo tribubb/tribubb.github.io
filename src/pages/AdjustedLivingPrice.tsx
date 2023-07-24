@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import handleTestClick from '@/scripts/testclick.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,18 +22,17 @@ export default function Home() {
                   </video>
               </div>
               <div className={styles.grid}>
-                  <a
-                      href="/AdjustedLivingPrice"
+                  <button
+                      onClick={handleTestClick}
                       className={styles.card}
-                      target="_blank"
                   >
                       <h2 className={inter.className}>
-                          Adjusted Living Cost <span>-&gt;</span>
+                          Google API Test <span>-&gt;</span>
                       </h2>
                       <p className={inter.className}>
-                          Developing July 2023, API with Express.js to calculate the real cost in living in any given location.
+                          Google API Test.
                       </p>
-                  </a>
+                  </button>
 
                   <a
                       href="index"

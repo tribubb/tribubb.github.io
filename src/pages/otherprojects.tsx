@@ -46,7 +46,7 @@ export default function Home() {
                       </p>
                   </a>
 
-		  <a
+		          <a
                       href="http://bubblopedia.ap-southeast-2.elasticbeanstalk.com/BubbRTShome"
                       className={styles.card}
                   >
@@ -55,6 +55,18 @@ export default function Home() {
                       </h2>
                       <p className={inter.className}>
                           Developed in July 2023. Laravel PHP online encyclopedia for the game BubbRTS utilising Vue.js, and Three.js for WebGL functionality. Hosted with AWS Elastic Beanstalk.
+                      </p>
+                  </a>
+
+                  <a
+                      href="https://dev.d3t4nnrvs0tkdn.amplifyapp.com/"
+                      className={styles.card}
+                  >
+                      <h2 className={inter.className}>
+                          Tabletop Notepad<span>-&gt;</span>
+                      </h2>
+                      <p className={inter.className}>
+                          Developed in July 2023. Ember.js notepad application. Hosted with AWS Amplify.
                       </p>
                   </a>
 
