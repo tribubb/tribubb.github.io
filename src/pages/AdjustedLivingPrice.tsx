@@ -1,34 +1,34 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
+import styles from '@/styles/Home.module.css';
 import handleTestClick from '@/scripts/testclick.js';
 import { useState } from 'react';
 import axios from 'axios';
 import Link from 'next/link';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-  const [originLatitude, setOriginLatitude] = useState('');
-  const [originLongitude, setOriginLongitude] = useState('');
-  const [travelTimes, setTravelTimes] = useState([]);
+    const [originLatitude, setOriginLatitude] = useState('');
+    const [originLongitude, setOriginLongitude] = useState('');
+    const [travelTimes, setTravelTimes] = useState([]);
 
-  const handleSubmit = async (event) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 
-      try {
-          const response = await axios.get(`/api/traveltimes`, {
-              params: {
-                  origin: `${originLatitude},${originLongitude}`,
-              },
-          });
+        try {
+            const response = await axios.get(`/api/traveltimes`, {
+                params: {
+                    origin: `${originLatitude},${originLongitude}`,
+                },
+            });
 
-          setTravelTimes(response.data);
-      } catch (error) {
-          console.error('Error fetching travel times:', error);
-      }
-  };
+            setTravelTimes(response.data);
+        } catch (error) {
+            console.error('Error fetching travel times:', error);
+        }
+    };
   return (
       <>
           <Head>
