@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import handleTestClick from '@/scripts/testclick.js';
 import { useState } from 'react';
 import axios from 'axios';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -55,7 +56,7 @@ export default function Home() {
                       </p>
                   </button>
 
-                  <a
+                  <Link
                       href="/index"
                       className={styles.card}
                   >
@@ -65,7 +66,7 @@ export default function Home() {
                       <p className={inter.className}>
                           Return to main page
                       </p>
-                  </a>
+                  </Link>
               </div>
               <div>
                   <form onSubmit={handleSubmit}>
