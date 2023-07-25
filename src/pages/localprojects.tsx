@@ -35,7 +35,7 @@ export default function Home() {
                   </a>
 
                   <a
-                      href="index"
+                      href="/index"
                       className={styles.card}
                   >
                       <h2 className={inter.className}>

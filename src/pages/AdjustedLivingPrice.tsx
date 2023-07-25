@@ -56,7 +56,7 @@ export default function Home() {
                   </button>
 
                   <a
-                      href="index"
+                      href="/index"
                       className={styles.card}
                   >
                       <h2 className={inter.className}>
