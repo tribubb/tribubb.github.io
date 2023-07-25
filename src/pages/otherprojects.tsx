@@ -71,7 +71,7 @@ export default function Home() {
                   </a>
 
                   <a
-                      href="/"
+                      href="index"
                       className={styles.card}
                   >
                       <h2 className={inter.className}>
