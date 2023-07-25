@@ -28,12 +28,10 @@ export default function Home() {
                 </div>
                 <div className={styles.grid}>
                     <Link href="/unityprojects" passHref className={styles.card}>
-                        <a>
                             <h2 className={inter.className}>
                                 Unity Projects<span>-&gt;</span>
                             </h2>
                             <p className={inter.className}>View projects currently under development.</p>
-                        </a>
                     </Link>
                     <a href="otherprojects" className={styles.card}>
                         <h2 className={inter.className}>
