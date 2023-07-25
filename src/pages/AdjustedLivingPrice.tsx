@@ -9,10 +9,15 @@ import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
+type TravelTime = {
+    route: number;
+    travelTime: string;
+};
+
 export default function Home() {
     const [originLatitude, setOriginLatitude] = useState('');
     const [originLongitude, setOriginLongitude] = useState('');
-    const [travelTimes, setTravelTimes] = useState([]);
+    const [travelTimes, setTravelTimes] = useState<TravelTime[]>([]);
 
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
