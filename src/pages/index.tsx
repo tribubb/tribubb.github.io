@@ -33,7 +33,7 @@ export default function Home() {
                             </h2>
                             <p className={inter.className}>View projects currently under development.</p>
                     </Link>
-                    <a href="otherprojects" className={styles.card}>
+                    <a href="/otherprojects" className={styles.card}>
                         <h2 className={inter.className}>
                             Other Projects<span>-&gt;</span>
                         </h2>
