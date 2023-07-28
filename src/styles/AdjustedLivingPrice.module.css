@@ -1,9 +1,9 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 8rem;
+    padding: 1rem;
     min-height: 100vh;
     background: linear-gradient(to bottom, --background-end-rgb1, --background-end-rgb2);
 }
@@ -38,6 +38,7 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  color: #ffffff;
 }
 
 .description a {
@@ -45,6 +46,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  color: #000000;
 }
 
 .description p {
@@ -108,11 +110,13 @@
 
 .button span {
     transition: transform 200ms;
+    color: #ffffff;
 }
 
 .button h2 {
     font-weight: 600;
     margin-bottom: 0.7rem;
+    color: #ffffff;
 }
 
 .button p {
@@ -121,6 +125,7 @@
     font-size: 0.9rem;
     line-height: 1.5;
     max-width: 30ch;
+    color: #ffffff;
 }
 
 .card {
@@ -129,15 +134,18 @@
   background: rgba(var(--card-rgb), 0);
   border: 2px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  color: #ffffff;
 }
 
 .card span {
   transition: transform 200ms;
+  color: #ffffff;
 }
 
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
+  color: #ffffff;
 }
 
 .card p {
@@ -146,6 +154,7 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+  color: #ffffff;
 }
 
 .logo,

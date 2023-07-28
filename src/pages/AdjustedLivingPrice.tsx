@@ -19,7 +19,7 @@ export default function Home() {
     const [originLongitude, setOriginLongitude] = useState('');
     const [destinationLatitude, setDestinationLatitude] = useState('');
     const [destinationLongitude, setDestinationLongitude] = useState('');
-    const [modeOfTransport, setModeOfTransport] = useState('');
+    const [modeOfTransport, setModeOfTransport] = useState('driving');
     const [areAddressesConfirmed, setAreAddressesConfirmed] = useState(false);
     const [travelTimes, setTravelTimes] = useState<TravelTime[]>([]);
 
@@ -130,7 +130,6 @@ export default function Home() {
         event.preventDefault();
 
         const key = process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
-        console.log(key);
         try {
             const homeResponse = await axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
                 params: {

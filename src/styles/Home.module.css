@@ -38,6 +38,7 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  color: #ffffff;
 }
 
 .description a {
@@ -45,6 +46,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  color: #ffffff;
 }
 
 .description p {
@@ -54,6 +56,7 @@
   background-color: rgba(var(--callout-rgb), 0.8);
   border: 2px solid rgba(var(--callout-border-rgb), 0.6);
   border-radius: var(--border-radius);
+  color: #ffffff;
 }
 
 .code {
@@ -84,6 +87,7 @@
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
+  color: #ffffff;
 }
 
 .card p {
@@ -92,6 +96,7 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+  color: #ffffff;
 }
 
 .center {
