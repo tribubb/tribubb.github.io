@@ -43,7 +43,7 @@ export default function Home() {
                         <h2 className={inter.className}>
                             Local Projects<span>-&gt;</span>
                         </h2>
-                        <p className={inter.className}>View a project within this domain.</p>
+                        <p className={inter.className}>View a project directly on this website.</p>
                     </Link>
                 </div>
             </main>
