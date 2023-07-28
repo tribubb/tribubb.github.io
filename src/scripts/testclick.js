@@ -1,5 +1,7 @@
-const handleTestClick = () => {
+export const handleTestClick = () => {
     console.log("test works");
 };
 
-export default handleTestClick;
+export const handleLocalWindowShift = () => {
+    window.location.href = "/localprojects";
+};

@@ -25,13 +25,12 @@ export default function Home() {
                   <a
                       href="/AdjustedLivingPrice"
                       className={styles.card}
-                      target="_blank"
                   >
                       <h2 className={inter.className}>
                           Adjusted Living Cost <span>-&gt;</span>
                       </h2>
                       <p className={inter.className}>
-                          Developing July 2023, API with Express.js to calculate the real cost in living in any given location.
+                          Developed July 2023, API heavy with Express.js to calculate the real cost in living in any given location.
                       </p>
                   </a>
 
