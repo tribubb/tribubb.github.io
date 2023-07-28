@@ -22,7 +22,7 @@ export default function Home() {
                   </video>
               </div>
               <div className={styles.grid}>
-                  <a
+                  <Link
                       href="/AdjustedLivingPrice"
                       className={styles.card}
                   >
@@ -32,7 +32,7 @@ export default function Home() {
                       <p className={inter.className}>
                           Developed July 2023, API heavy with Express.js to calculate the real cost in living in any given location.
                       </p>
-                  </a>
+                  </Link>
 
                   <Link
                       href="/"

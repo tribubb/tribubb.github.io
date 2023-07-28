@@ -395,7 +395,7 @@ export default function Home() {
                               {rentPercentage <= 50 && rentPercentage > 40 && <p className={inter.className}>Consider budgeting carefully at this location, or a cheaper location.</p>}
                               {rentPercentage <= 40 && rentPercentage > 30 && <p className={inter.className}>This is generally considered affordable, but always be looking to improve your situation.</p>}
                               {rentPercentage <= 30 && rentPercentage > 15 && <p className={inter.className}>This is considered very affordable, consider saving as much as you can.</p>}
-                              {rentPercentage <= 15 && <p className={inter.className}>You can consider living somewhere nicer to live if you aren't already saving for a mortgage.</p>}
+                              {rentPercentage <= 15 && <p className={inter.className}>You can consider living somewhere nicer to live if you are not already saving for a mortgage.</p>}
                           </div>  
                       </div>
                   )}
