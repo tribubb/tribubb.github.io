@@ -30,7 +30,7 @@ export default function Home() {
                           Adjusted Living Cost <span>-&gt;</span>
                       </h2>
                       <p className={inter.className}>
-                          Developed July 2023, API heavy with Express.js to calculate the real cost of living in any given location.
+                          Developing July/August 2023, API heavy with Express.js to calculate the real cost of living in any given location.
                       </p>
                   </Link>
 

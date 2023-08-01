@@ -67,7 +67,7 @@ export default function Home() {
                           Tabletop Notepad<span>-&gt;</span>
                       </h2>
                       <p className={inter.className}>
-                          Developed in July 2023. Ember.js notepad application. Hosted with AWS Amplify.
+                          Developed in July 2023. Ember.js notepad SPA. Hosted with AWS Amplify.
                       </p>
                   </a>
 
