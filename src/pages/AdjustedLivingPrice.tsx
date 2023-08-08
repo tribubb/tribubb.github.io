@@ -20,7 +20,10 @@ export default function Home() {
     const [destinationLatitude, setDestinationLatitude] = useState('');
     const [destinationLongitude, setDestinationLongitude] = useState('');
     const [modeOfTransport, setModeOfTransport] = useState('driving');
+
     const [areAddressesConfirmed, setAreAddressesConfirmed] = useState(false);
+    const [inSummaryMode, setInSummaryMode] = useState(false);
+
     const [travelTimes, setTravelTimes] = useState<TravelTime[]>([]);
 
     const [hourlyPayString, setHourlyPayString] = useState<string>('22.70');
@@ -168,7 +171,7 @@ export default function Home() {
                 params: {
                     origin: `${originLatitude},${originLongitude}`,
                     destination: `${destinationLatitude},${destinationLongitude}`,
-                    departTime: `${workStart}`,
+                    departTime: `${departureFromHome}`,
                     secondDepartTime: `${hoursPerDay}`,
                     transportUsed: `${modeOfTransport}`
                 },
@@ -178,6 +181,31 @@ export default function Home() {
             setAreAddressesConfirmed(true);
         } catch (error) {
             console.error('Error fetching travel times:', error);
+        }
+    };
+
+    const resetFields = (event: React.MouseEvent<HTMLInputElement>) => {
+        try {
+            setOriginLatitude('');
+            setOriginLongitude('');
+            setDestinationLatitude('');
+            setDestinationLongitude('');
+            setModeOfTransport('driving');
+            setAreAddressesConfirmed(false);
+            setHourlyPayString('22.70');
+            setHourlyPay(22.70);
+            setWeeklyRent(450);
+            setDepartureFromHome("08:30");
+            setWorkStart("09:00");
+            setHoursPerDay(8);
+            setDaysPerWeek(5);
+            setLateDifference(1);
+            setHoursPerWeek(0);
+            setPayPerWeek(0);
+            setRentPercentage(0);
+
+        } catch (error) {
+            console.error('Error resetting fields:', error);
         }
     };
   return (
@@ -219,6 +247,7 @@ export default function Home() {
                                       className={styles.input}
                                       name="address"
                                       value={address}
+                                      disabled={areAddressesConfirmed}
                                       onChange={(e) => setAddress(e.target.value)}
                                   />
                               </div>
@@ -230,6 +259,7 @@ export default function Home() {
                                       className={styles.input}
                                       name="workAddress"
                                       value={workAddress}
+                                      disabled={areAddressesConfirmed}
                                       onChange={(e) => setWorkAddress(e.target.value)}
                                   />
                               </div>
@@ -275,6 +305,7 @@ export default function Home() {
                                       className={styles.inputSmall}
                                       name="departureFromHome"
                                       value={departureFromHome}
+                                      disabled={areAddressesConfirmed}
                                       onChange={(e) => setDepartureFromHome(e.target.value)}
                                   />
                               </div>
@@ -286,6 +317,7 @@ export default function Home() {
                                       className={styles.inputSmall}
                                       name="workStart"
                                       value={workStart}
+                                      disabled={areAddressesConfirmed}
                                       onChange={(e) => setWorkStart(e.target.value)}
                                   />
                               </div>
@@ -299,13 +331,14 @@ export default function Home() {
                                           setModeOfTransport(e.target.value);
                                       }}
                                       className={styles.inputSmall}
+                                      disabled={areAddressesConfirmed}
                                   >
                                       <option value="driving">Driving</option>
                                       <option value="transit">Transit</option>
                                       <option value="walking">Walking</option>
                                   </select>
                               </div>
-                              <br/>
+                              <br />
                               <div className={styles.formField}>
                                   <label htmlFor="hoursPerDay" className={inter.className}>Hours worked per day: </label>
                                   <input
@@ -314,6 +347,7 @@ export default function Home() {
                                       className={styles.inputSmall}
                                       name="hoursPerDay"
                                       value={hoursPerDay}
+                                      disabled={areAddressesConfirmed}
                                       onChange={(e) => {
                                           const re = /^[0-9\b]+$/;
                                           // if value is not blank, then test the regex
@@ -331,6 +365,7 @@ export default function Home() {
                                       className={styles.inputSmall}
                                       name="daysPerWeek"
                                       value={daysPerWeek}
+                                      disabled={areAddressesConfirmed}
                                       onChange={(e) => {
                                           const re = /^[0-9\b]+$/;
                                           // if value is not blank, then test the regex
@@ -341,12 +376,13 @@ export default function Home() {
                                   />
                               </div>
                           </div>
-                          <br/>
-                          <button type="submit" className={styles.button}>Calculate Data</button>
-                          <br/>
+                          {!areAddressesConfirmed && (
+                          <button type="submit" className={styles.button} style={{marginTop: '20px', marginBottom: '20px'}}>Calculate Data</button>
+                          )}
                       </div>
                   </form>
                   <form onSubmit={handleSubmit}>
+                      {!areAddressesConfirmed && (
                       <div className={styles.formSection}>
                           <div className={styles.formRow}>
                               <div className={styles.formField}>
@@ -388,18 +424,21 @@ export default function Home() {
                                   />
                               </div>
                           </div>
-                          <br/>
-                          <input type="submit" className={styles.button} value="Calculate Route" />
+                          <input type="submit" className={styles.button} style={{ marginTop: '20px' }} value="Calculate Route" />
                       </div>
+                      )}
                   </form>
                   {areAddressesConfirmed && (
-                  <div>
+                  <div className={styles.grid}>
                       <br/>
                           {travelTimes.map((time, index) => (
                           <div key={`${time.route}-${index}`}>
-                              <div className={inter.className}>
-                                  {index === 0 ? 'Departure to Work Time' : index === 1 ? 'Return to Home Time' : `Route ${time.route}`} {time.travelTime}
-                                  {index === 0 && (lateDifference + calculateTravelTime(time.travelTime)) <= 0 && <p>You would need to leave for work earlier as you would be late by {Math.abs(lateDifference + calculateTravelTime(time.travelTime))} minutes.</p>}
+                              <div className={styles.grid}>
+                                      <p className={inter.className}>
+                                      {index === 0 ? 'Departure to Work Time' : index === 1 ? 'Return to Home Time' : `Route ${time.route}`} {time.travelTime}
+                                  </p>
+                                  
+                                  {index === 0 && (lateDifference + calculateTravelTime(time.travelTime)) <= 0 && <p className={inter.className}>You would need to leave for work earlier as you would be late by {Math.abs(lateDifference + calculateTravelTime(time.travelTime))} minutes.</p>}
                               </div>
                           </div>
                       ))}
@@ -417,6 +456,7 @@ export default function Home() {
                               {rentPercentage <= 30 && rentPercentage > 20 && <p className={inter.className}>This is considered affordable, consider saving as much as you can.</p>}
                               {rentPercentage <= 20 && <p className={inter.className}>You can consider living somewhere nicer to live if you are not already saving for a mortgage.</p>}
                           </div>  
+                          <input type="submit" className={styles.button} style={{ marginTop: '20px' }} onClick={resetFields} value="Enter another route" />
                       </div>
                   )}
               </div>
