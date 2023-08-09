@@ -72,7 +72,7 @@ export default function Home() {
                   </a>
 
                   <a
-                      href="https://www.dropbox.com/scl/fi/js3s20891y7x2lwjln56n/LegacyAdmin.zip?rlkey=oge53uka64syhqy5hh70nwlcm&dl=0"
+                      href="https://www.dropbox.com/scl/fi/6psh9kg1errw85e3qzai8/LegacyAdmin.zip?rlkey=4u7lgsruze66djgb3mobifd7y&dl=0"
                       className={styles.card}
                   >
                       <h2 className={inter.className}>
