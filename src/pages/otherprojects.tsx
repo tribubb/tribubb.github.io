@@ -72,14 +72,14 @@ export default function Home() {
                   </a>
 
                   <a
-                      href="https://www.dropbox.com/scl/fi/6psh9kg1errw85e3qzai8/LegacyAdmin.zip?rlkey=4u7lgsruze66djgb3mobifd7y&dl=0"
+                      href="https://www.dropbox.com/scl/fi/a6ikr18jfsp27fbedhklz/LegacyAdmin1.1.zip?rlkey=jrks0q6hllb8jmhxc6t47an9t&dl=0"
                       className={styles.card}
                   >
                       <h2 className={inter.className}>
                           Legacy Admin<span>-&gt;</span>
                       </h2>
                       <p className={inter.className}>
-                          Developing in August 2023. Old-style employee admin software, port of a WPF project into Delphi.
+                          Developed in August/September 2023. Old-style employee admin software, port of a WPF project into Delphi.
                       </p>
                   </a>
 
