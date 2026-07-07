@@ -25,7 +25,7 @@ export default function Home() {
           <a
             href="BubbRTS/bubbRTSLanding"
           >
-            <code className={styles.code}>BubbRTS v.025 available here</code>
+            <code className={styles.code}>BubbRTSMobile v.025-A available here</code>
           </a>
         </div>
 
@@ -41,7 +41,7 @@ export default function Home() {
               BubbRTS <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             In development since November 2022. Newest version v0.25 released <code>11/04/2023 04:48pm</code>
+             In development since November 2022, halted since April 2023. Newest version v0.25-A released <code>07/07/2026 04:04pm</code>
             </p>
           </a>
 
