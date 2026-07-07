@@ -23,7 +23,7 @@ export default function Home() {
                 </div>
                 <div className={styles.spin}>
                     <a href="BubbRTS/bubbRTSLanding">
-                        <code className={styles.code}>BubbRTS v.025 available here</code>
+                        <code className={styles.code}>BubbRTSMobile v.025-A available here</code>
                     </a>
                 </div>
                 <div className={styles.grid}>
