@@ -21,15 +21,15 @@ export default function Home() {
               </video>
           <div className={styles.center}>
               <div className={styles.basicBorder}> 
-                  <p className={inter.className}>BubbRTS is a Real Time Strategy game being developed for PC.</p> <br/>
+                  <p className={inter.className}>BubbRTS is a Real Time Strategy game initially developed for PC and ported for Android.</p> <br/>
                   <p className={inter.className}>In BubbRTS, you build a base, accumulate resources and survive waves of opponents, developing technology and your society to combat invasion.</p><br/>
-                  <p className={inter.className}>New updates are posted every month, but a focus on smaller projects means releases will be further apart</p>
+                  <p className={inter.className}>Project on hold at the moment during development of Tridquest Origins</p>
               </div> 
           </div>
 
         <div className={styles.grid}>
           <a
-            href="https://www.dropbox.com/s/caoowi1yhwe6oo9/BubbRTSv.025.rar?dl=0"
+            href="https://www.dropbox.com/scl/fi/wuenwonhavy5wgbxflpzl/BubbRTS.apk?rlkey=1mie7hfi98c45jo90sf63alnk&st=0s3eelpa&dl=0"
             className={styles.card}
             target="_blank"
           >
@@ -37,7 +37,7 @@ export default function Home() {
               Download <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             Download the newest version v0.25 from Dropbox
+             Download the newest version v0.25-A from Dropbox
             </p>
           </a>
 
