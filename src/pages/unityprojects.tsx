@@ -33,6 +33,19 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+		  <a
+            href="https://www.dropbox.com/scl/fi/z73mw4026xb6e6ta5idw0/Tridquest-Origins-Pre-Alpha-5-2.zip?rlkey=ka5m1xf5prz8l9ofw24r26l96&st=289nxfmr&dl=0"
+            className={styles.card}
+            target="_blank"
+          >
+            <h2 className={inter.className}>
+              Tridquest Origins Pre Alpha 5 <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+             Started earliest development in July 2025. Out of Hiatus and in active development since May 2026.
+            </p>
+          </a>
+			
           <a
             href="BubbRTS/bubbRTSLanding"
             className={styles.card}
