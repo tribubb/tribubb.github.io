@@ -39,10 +39,10 @@ export default function Home() {
             target="_blank"
           >
             <h2 className={inter.className}>
-              Tridquest Origins Pre Alpha 5 <span>-&gt;</span>
+              Tridquest Origins Pre Alpha 6 <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             Started earliest development in July 2025. Out of Hiatus and in active development since May 2026.
+             Started earliest development in July 2025. Out of Hiatus and in active development since May 2026. Newest update released <code>24/07/2026 06:52am</code>
             </p>
           </a>
 			
