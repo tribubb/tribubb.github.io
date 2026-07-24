@@ -34,7 +34,7 @@ export default function Home() {
 
         <div className={styles.grid}>
 		  <a
-            href="https://www.dropbox.com/scl/fi/z73mw4026xb6e6ta5idw0/Tridquest-Origins-Pre-Alpha-5-2.zip?rlkey=ka5m1xf5prz8l9ofw24r26l96&st=289nxfmr&dl=0"
+            href="https://www.dropbox.com/scl/fi/4no50v8c40x7g695dngss/Tridquest-Origins-Pre-Alpha-6.zip?rlkey=bi56qu2finxbgvl550bxmx24r&st=jwp4hyqr&dl=0"
             className={styles.card}
             target="_blank"
           >
@@ -42,7 +42,7 @@ export default function Home() {
               Tridquest Origins Pre Alpha 6 <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-             Started earliest development in July 2025. Out of Hiatus and in active development since May 2026. Newest update released <code>24/07/2026 06:52am</code>
+             Started earliest development in July 2025. Out of Hiatus and in active development since May 2026. Newest update released <code>25/07/2026 01:08am</code>
             </p>
           </a>
 			
